@@ -1,4 +1,4 @@
-FROM python:3.14.7-slim-trixie@sha256:ce40764625a4ff50df3548277632e7f96c4e77fe75fa848aae9885476e7df5a4
+FROM python:3.14.7-slim-trixie@sha256:51dafde81dbdb6ebde285137a295cf18a47ca95234fe388a343719cb97305b3d
 
 # libgomp is the only runtime library required by the prebuilt ML wheels.
 RUN apt-get update && apt-get install -y --no-install-recommends \

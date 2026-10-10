@@ -69,7 +69,7 @@ dependencies = [
 
 [project.optional-dependencies]
 gpu = [
-  "bitsandbytes==0.50.1",
+  "bitsandbytes==0.50.2",
 ]
 gguf-cuda = [
   # Documented extra-index for CUDA wheels; Dockerfile selects cu124 when GPU image.

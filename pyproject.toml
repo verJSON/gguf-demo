@@ -73,7 +73,7 @@ gpu = [
 ]
 gguf-cuda = [
   # Documented extra-index for CUDA wheels; Dockerfile selects cu124 when GPU image.
-  "llama-cpp-python==0.3.34",
+  "llama-cpp-python==0.3.36",
 ]
 dev = [
   "pytest==9.1.1",

@@ -64,7 +64,7 @@ dependencies = [
   "numpy==2.5.2",
   "click==8.4.2",
   "rich==15.0.0",
-  "python-dotenv==1.2.2",
+  "python-dotenv==1.2.4",
 ]
 
 [project.optional-dependencies]

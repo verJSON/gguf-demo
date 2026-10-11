@@ -61,7 +61,7 @@ dependencies = [
   # builds; the wheels this project installs (2.13+) are built against numpy 2, so the
   # constraint outlived its reason and only blocked the resolve. Keep in step with
   # Dockerfile.app — tests/test_dependency_parity.py enforces that.
-  "numpy==2.5.2",
+  "numpy==2.5.4",
   "click==8.4.2",
   "rich==15.0.0",
   "python-dotenv==1.2.2",

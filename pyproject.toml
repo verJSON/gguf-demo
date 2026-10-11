@@ -19,7 +19,7 @@ dependencies = [
   "langchain-core==1.5.5",
   "langchain-text-splitters==1.1.2",
   "langchain-huggingface==1.2.2",
-  "langchain-postgres==0.0.17",
+  "langchain-postgres==0.0.19",
   # langchain-postgres speaks psycopg 3; psycopg2 stays for the direct metrics writes.
   "psycopg[binary]==3.3.4",
   # Vector database

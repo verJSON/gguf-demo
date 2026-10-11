@@ -26,7 +26,7 @@ dependencies = [
   # langchain-postgres 0.0.17 requires pgvector<0.4. 0.3.6 is the newest compatible
   # client; the container extension is independently current at 0.8.6.
   "pgvector==0.3.6",
-  "psycopg2-binary==2.9.12",
+  "psycopg2-binary==2.9.13",
   "sqlalchemy==2.0.52",
   # Document processing
   "pypdf==6.16.1",
